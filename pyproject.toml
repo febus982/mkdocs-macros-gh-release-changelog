@@ -8,10 +8,19 @@ repository = "https://github.com/febus982/mkdocs-macros-gh-release-changelog"
 homepage = "https://febus982.github.io/mkdocs-macros-gh-release-changelog"
 readme = "README.md"
 packages = [{include = "mkdocs_macros_gh_release_changelog"}]
-#keywords = ["add", "keywords", "here"]
+keywords = [
+    "changelog",
+    "changelog-generator",
+    "mkdocs",
+    "mkdocs-plugin",
+    "mkdocs-macros",
+    "mkdocs-macros-plugin",
+    "release-notes",
+    "release-notes-generator",
+]
 classifiers = [
     "Development Status :: 4 - Beta",
-    "Framework :: AsyncIO",
+    "Framework :: MkDocs",
     "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
     "Natural Language :: English",
@@ -24,7 +33,12 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
-    "Typing :: Typed"
+    "Topic :: Documentation",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Documentation",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed",
 ]
 
 [tool.poetry-dynamic-versioning]
