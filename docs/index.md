@@ -1,4 +1,4 @@
-# bootstrap-python-package
+# mkdocs-macros-gh-release-changelog
 
 This template repository provides the boilerplate to create a python package.
 It is configured with all the following features:
@@ -16,12 +16,12 @@ It is configured with all the following features:
 ## How to use this repository template to create a new package
 
 * Create your github repository using this template. (The big green `Use this template` button)
-* Rename the `bootstrap_python_package` directory
-* Search and replace all the occurrences of `bootstrap-python-package` and `bootstrap_python_package`
+* Rename the `mkdocs_macros_gh_release_changelog` directory
+* Search and replace all the occurrences of `mkdocs-macros-gh-release-changelog` and `mkdocs_macros_gh_release_changelog`
 * Configure a pending trusted publisher on [pypi](https://pypi.org/manage/account/publishing) using the following values:
-    * PyPI Project Name: what you renamed the directory `bootstrap_python_package` to (Double check `_` and `-`)
+    * PyPI Project Name: what you renamed the directory `mkdocs_macros_gh_release_changelog` to (Double check `_` and `-`)
     * Owner: The github repository owner (in this case `febus982`)
-    * Repository name: The github repository name (in this case `bootstrap-python-package`)
+    * Repository name: The github repository name (in this case `mkdocs-macros-gh-release-changelog`)
     * Workflow name: `release.yml`
 * Create a GitHub Actions secret named `CODECLIMATE_REPORTER_ID` (at URL `https://github.com/GITHUB_NAME_OR_ORGANIZATION/GITHUB_REPOSITORY/settings/secrets/actions`)
   containing the codeclimate reporter id (you can find it at `https://codeclimate.com/repos/YOUR_REPO_ID/settings/test_reporter`).

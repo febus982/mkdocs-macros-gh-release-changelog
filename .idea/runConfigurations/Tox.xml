@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Tox" type="Tox" factoryName="Tox">
-    <module name="bootstrap-python-package" />
+    <module name="mkdocs-macros-gh-release-changelog" />
     <option name="ENV_FILES" value="" />
     <option name="INTERPRETER_OPTIONS" value="" />
     <option name="PARENT_ENVS" value="true" />

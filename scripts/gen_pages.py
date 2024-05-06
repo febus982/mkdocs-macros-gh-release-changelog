@@ -9,7 +9,7 @@ import mkdocs_gen_files
 #                    Configuration                     #
 # -----------------------------------------------------#
 # Package source code relative path
-src_dir = "bootstrap_python_package"
+src_dir = "mkdocs_macros_gh_release_changelog"
 # Generated pages will be grouped in this nav folder
 nav_pages_path = "API-Reference"
 
